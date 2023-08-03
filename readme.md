@@ -13,6 +13,7 @@ Esta extension agrega un boton de descarga a los pdf de solo lectura que se encu
 ## Importante
 
 1- Tiene que visualizar todo el pdf antes de descargar.
+
 2- El boton aparece con los enlaces que comienzan en:
 ```
     https://drive.google.com/file/*
