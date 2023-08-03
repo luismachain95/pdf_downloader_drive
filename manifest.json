@@ -1,9 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Reading time",
+    "name": "PDF Downloader Drive",
+    "description": "Descarga Pdf de solo lectura de drive.",
     "version": "1.0",
-    "description": "Add the reading time to Chrome Extension documentation articles",
-
     "icons": {
         "16": "images/icon-16.png",
         "32": "images/icon-32.png",
@@ -12,11 +11,10 @@
     },
     "content_scripts": [
         {
-        "js": ["scripts/content.js"],
-        "matches": [
-            "https://developer.chrome.com/docs/extensions/*",
-            "https://developer.chrome.com/docs/webstore/*"
-        ]
+            "js": ["scripts/jspdf.js","scripts/content.js"],
+            "matches": [
+                "https://drive.google.com/file/*"
+            ]
         }
     ]
 }
