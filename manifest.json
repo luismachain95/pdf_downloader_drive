@@ -12,6 +12,7 @@
     "content_scripts": [
         {
             "js": ["scripts/jspdf.js","scripts/content.js"],
+            "css": ["css/styles.css"],
             "matches": [
                 "https://drive.google.com/file/*"
             ]
